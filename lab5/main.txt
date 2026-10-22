@@ -1,0 +1,5 @@
+Login Page: login.html
+Signup Page: signup.html
+Dashboard: Dashboard.txt
+Profile Page: profile-page.txt
+Database Component: data.txt
