@@ -1,0 +1,2 @@
+Shared repository: https://github.com/Shwetankjais/CDD_Lab5
+Pull requests: https://github.com/Shwetankjais/CDD_Lab5/pulls?q=is%3Apr

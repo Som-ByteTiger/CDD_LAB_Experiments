@@ -1,0 +1,2 @@
+This file represents the database component.
+Created by Somsubhra Khan.

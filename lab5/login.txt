@@ -1,0 +1,2 @@
+Login component
+The login page is implemented in login.html.
