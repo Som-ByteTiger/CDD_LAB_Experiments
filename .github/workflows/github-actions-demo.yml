@@ -1,0 +1,29 @@
+name: Github Actions Demo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Github_actions_demo
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Python program
+        run: python hello.py
