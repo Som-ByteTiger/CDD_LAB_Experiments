@@ -13,3 +13,4 @@ branch and pull request.
 ## Contact Information
 - Name: Somsubhra Khan
 - GitHub: https://github.com/Som-ByteTiger
+- Purpose: Contact for CDD lab collaboration and experiment discussions.
