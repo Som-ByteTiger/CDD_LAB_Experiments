@@ -1,0 +1,9 @@
+* de4405b (HEAD -> main, feature-rebase-demo) Add feature change for rebase demo
+* b7e918e Add main branch update
+*   c71d831 Resolve version conflict, keep 2.0
+|\  
+| * 052cf7d (feature-version) Set version to 2.0 on feature-version
+* | b0e792b Set version to 1.0 on main
+|/  
+* 055c036 (feature-login) Add login feature file
+* 0f05fb2 (feature-signup) Initialize repository and Experiment 3
