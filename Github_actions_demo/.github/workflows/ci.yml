@@ -1,19 +1,15 @@
-name: Github Actions Demo
+name: Python CI
 
 on:
   push:
   pull_request:
-  workflow_dispatch:
-
-permissions:
-  contents: read
 
 jobs:
-  run-python:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,4 +18,4 @@ jobs:
           python-version: '3.12'
 
       - name: Run Python program
-        run: python Github_actions_demo/hello.py
+        run: python hello.py
